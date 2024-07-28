@@ -80,7 +80,9 @@ export const GitHubButton = styled.a`
   align-items: center;
   height: 70%;
   border-radius: 20px;
-  color: ${({ theme }) => theme.primary};
+  
+  background: rgb(173,119,187);
+  background: linear-gradient(90deg, rgba(173,119,187,1) 0%, rgba(164,99,202,1) 5%, rgba(65,161,219,1) 45%);
   cursor: pointer;
   padding: 0 20px;
   font-weight: 500;
